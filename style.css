@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body {
+    background-image: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    margin: 0%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header-person{
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: .4s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 100px;
+    margin-top: 10rem;
+}
+
+.home h1{
+    display: flex;
+    font-size: 60px;
+}
+.home p{
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.gambar img{
+    width: 300px;
+    height: auto;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    flex-wrap:wrap;
+}
+
+#person{
+    margin-top: 5rem;
+}
+
+.card{
+    width: 239px; 
+    height: 302px;
+    background: #38703d; 
+    box-shadow: 8px 13px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 31px;
+    margin-top: 3rem;
+    padding-bottom: 7%;
+}
+
+.card img{
+    width: 150x;
+    height: 200px;
+    border-radius: 18px;
+}
+
+.dosen{
+    padding: 80px 0px;
+    width: 100%;
+
+}
+.dosen img{
+    height: auto;
+    width: 400px;
+}
+
+.dosen-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
